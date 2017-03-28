@@ -1,0 +1,610 @@
+/* GENERAL STYLES */
+
+
+#wrapper {
+	font-family: Arial, san-serif;
+	font-size: 100%;
+	height: 3595px;
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+/***** HEADER *****/
+
+#header {
+	width: 1280px;
+	height: 745px;
+	margin: 0 auto;
+	background-image: url(../images/headerBg.jpg);
+	position: relative;
+
+}
+
+/* Menu */
+#header div:first-child {
+	height: 100px;
+	width: 1280px;
+	margin: 0 auto;
+	
+	
+	
+}
+
+#header div:first-child ul {
+	padding-top: 28px;
+}
+
+#header div:first-child ul li{
+	display: inline-block;
+	font-size: 15.4px;
+	font-family:  "Gothm Rounded medium", Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 42px; 
+	letter-spacing: 3px;
+
+
+
+}
+
+#header div:first-child ul li:nth-child(3) {
+	position: absolute;
+	top: -3px;
+	left: 606px;
+	cursor: pointer;
+}
+
+#header div:first-child ul li:nth-child(1) {
+	margin-left: 272px;
+	cursor: pointer;
+}
+#header div:first-child ul li:nth-child(2) {
+	margin-left: 58px;
+	cursor: pointer;
+}
+
+#header div:first-child ul li:nth-child(4) {
+	margin-left: 245px;
+	cursor: pointer;
+}
+
+#header div:first-child ul li:nth-child(5) {
+	margin-left: 71px;
+	cursor: pointer;
+}
+
+/* END Menu */
+
+/* Title */
+
+#header div:nth-child(2) {
+	height: 574px;
+	width: 1280px;
+	margin: 0 auto;
+	
+}
+
+#header div h1 {
+	font-size: 35px;
+	font-family:  "Gothm Rounded medium", Arial;
+	font-weight: 560;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: 232px;
+	padding-left: 6px;
+	letter-spacing: 6px;
+	word-spacing: 1px;
+}
+
+#header div p {
+	font-size: 15px;
+	margin-top: 7px;
+	letter-spacing: 3px;
+	word-spacing: 1px;
+	color: #ffffff;
+	font-family:  "Gothm Rounded light", Arial;
+	font-weight: bold;
+
+
+}
+
+
+#header div h1, #header div p {
+	color: white;
+	text-align: center;
+}
+
+#header div:nth-child(2) form {
+	position: absolute;
+	top: 428px;
+	left: 557px;
+	cursor: pointer;
+}
+
+
+/* END Title */
+
+/* Icon */ 
+
+#header div:nth-child(3) {
+	
+	height: 71px;
+	width: 1280px;
+	margin: 0 auto;
+}
+.iconH {
+	padding: 0;
+
+}
+.iconH li {
+	
+	
+	display: inline-block;
+	background: url(../images/sprite.png);
+	width: 23px;
+	height: 21px;
+	cursor: pointer;
+	margin-top: 25px;
+	margin-left: 591px;
+
+}
+
+.iconH li:nth-child(2) {
+	background-position: -39px 0;
+	margin-left: 12px;
+}
+
+.iconH li:nth-child(3) {
+	background-position: 23px 0;
+	margin-left: 8px;
+}
+
+/*  END Icon */ 
+
+/***** END HEADER *****/
+
+/***** Light BLOCK *****/
+
+#LightBlock {
+	height: 1534px;
+	width: 1280px;
+	
+	margin: 0 auto;
+}
+
+/* GREY 1 */
+#grey1 {
+	height: 492px;
+	
+	background: url(../images/hand.png) no-repeat;
+	background-position: 510px 89px;
+	background-color: #f5f6f7;
+}
+
+.grey1 {
+	height: 492px;
+	width: 800px;
+}
+
+.grey1 h2, .grey1 form {
+	padding: 0;
+	margin: 0;
+	margin-left: 129px;
+
+}
+.grey1 h2 {
+	padding-top: 108px;
+	font-size: 16.5px;
+	font-family: "Gothm Rounded medium", Arial;
+	text-transform: uppercase;
+	letter-spacing: 3.7px;
+	color: #16a085;
+}
+
+.grey1 p {
+	padding-top: 28px;
+	font-size: 12px;
+	font-family: "Gothm Rounded book", Arial;
+	margin-left: 128px;
+	letter-spacing: 1.9px;
+	word-spacing: -0.3px;
+	line-height: 2;
+	color: #373737;
+}
+.grey1 p span {
+	font-weight: bold;
+}
+
+.grey1 form {
+	margin-top: 41px;
+	cursor: pointer;
+}
+
+/* END GREY 1 */
+
+/* GREY 2 */
+.grey2 {
+	height: 558px;
+	
+	background: url(../images/lightPhone.png) no-repeat;
+	background-color: #ffffff;
+	background-position: 125px 146px;
+}
+
+.grey2 h2,  .grey2 form:nth-child(3) {
+	padding: 0;
+	margin: 0;
+	margin-left: 766px;
+
+}
+
+.grey2 h2 {
+	padding-top: 142px;
+	font-size: 16.5px;
+	font-family: "Gothm Rounded medium", Arial;
+	text-transform: uppercase;
+	letter-spacing: 3.7px;
+	color: #16a085;
+}
+
+.grey2 p {
+	padding-top: 23px;
+	font-size: 12px;
+	font-family: "Gothm Rounded book", Arial;
+	margin-left: 769px;
+	letter-spacing: 1.9px;
+	word-spacing: -0.3px;
+	line-height: 1.9;
+	color: #373737;
+}
+
+.grey2 p span {
+	font-weight: bold;
+}
+.grey2 form:nth-child(3) {
+	margin-top: 37px;
+	cursor: pointer;
+	margin-left: 767px;
+}
+
+.grey2 p:nth-child(4) {
+	padding-top: 23px;
+	margin-left: 767px;
+	font-family: "Gothm Rounded medium", Arial;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+}
+
+.arrowL{
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 767px;
+	cursor: pointer;
+}
+
+.arrowR {
+	margin-left: 17px;
+	cursor: pointer;
+
+}
+
+
+/* END GREY 2 */
+
+/* GREY 3 */
+.grey3 {
+	height: 484px;
+	
+	background-color: #f5f6f7; 
+
+}
+.arrows {
+	height: 121px;
+	width: 1280px;
+	
+}
+
+.threePic {
+	height: 244px;
+	width: 1280px;
+	
+}
+
+.arrows form input:nth-child(1) {
+	margin-top: 95px;
+	margin-left: 1113px;
+	display: inline-block;
+	cursor: pointer;
+}
+.arrows form input:nth-child(2) {
+	margin-top: 40px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+
+.picLeft {
+	width: 386px;
+	height: 244px;
+	
+	display: inline-block;
+	float: left;
+}
+
+.picLeft img {
+	margin-top: 44px;
+	margin-left: 187px;
+}
+
+.picLeft h2 {
+	margin: 0;
+	padding: 0;
+	margin-top: 22px;
+	margin-left: 129px;
+	font-family: "Gothm Rounded medium", Arial; 
+	font-size: 15.5px; 
+	text-transform: uppercase; 
+	letter-spacing: 2.8px; 
+	word-spacing: 0px; 
+	color: #373737; 
+}
+
+.picLeft p {
+	margin-top: 19px;
+	margin-left: 56px;
+	text-align: center; 
+	font-size: 0.65em; 
+	font-family: "Gothm Rounded medium", Arial; 
+	letter-spacing: 1.2px; 
+	line-height: 1.2; 
+	word-spacing: 0.8px; 
+	font-weight: 550;
+	color: #373737
+}
+.picLeft p span {
+	margin-left: -5px;
+}
+
+.picRight {
+	width: 894px;
+	height: 244px;
+	
+	display: inline-block;
+	float: left;
+}
+
+.bus {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.leaves {
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+/* END GREY 3 */
+
+/***** END Light BLOCK *****/
+
+
+/***** SUBSCRIBE *****/
+
+#Subscribe {
+	height: 789px;
+	width: 1280px;
+	
+	margin: 0 auto;
+	background: url(../images/sbBg.jpg) no-repeat;
+	position: relative;
+}
+
+
+#Subscribe  h2 {
+	margin: 0;
+	position: absolute;
+	top: 344px;
+	left: 402px;
+	text-transform: uppercase;
+	font-family: "Gothm Rounded medium", Arial;
+	font-weight: 500;
+	color: #ffffff;
+	letter-spacing: 3.7px;
+}
+
+.form {
+	margin: 0;
+	top: 404px;
+    left: 467px;
+    width: 348px; /* Ширина поля с кнопкой */
+   /* border: 1px solid #000;  Параметры рамки */
+    min-height: 60px; /* Минимальная высота */
+    height: 90px;
+    position: absolute;
+   
+   }
+   input[type="text"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 258px; /* Ширина поля */
+    height: 58px;
+    border-radius: 3px 0 0 3px;
+    vertical-align: middle; /* Выравнивание по середине */
+    float: left;
+    padding-left: 22px;
+    text-transform: none;
+	font-family: "Gothm Rounded Medium", Arial;
+	font-weight: 400;
+	letter-spacing: 2.4px;
+
+   }
+   input[name="button"] {
+    width: 63px; /* Ширина кнопки */
+    height: 60px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../images/submit.png) no-repeat; /* Параметры фона */
+   	float: left;
+   	cursor: pointer;
+   	border-radius: 0 3px 3px 0;
+
+   }
+
+   input[type="text"]::-webkit-input-placeholder {  /* https://css-tricks.com/almanac/selectors/p/placeholder/ */
+   		color: #373737;
+   		text-transform: uppercase;
+		font-family: "Gothm Rounded Medium", Arial;
+		font-weight: 400;
+		letter-spacing: 2.4px;
+   }
+
+   input[type="text"]::-moz-placeholder {  /* https://css-tricks.com/almanac/selectors/p/placeholder/ */
+   		color: #373737;
+   		text-transform: uppercase;
+		font-family: "Gothm Rounded Medium", Arial;
+		font-weight: 400;
+		letter-spacing: 2.4px;
+   }
+
+   input[type="text"]::-ms-input-placeholder {  /* https://css-tricks.com/almanac/selectors/p/placeholder/ */
+   		color: #373737;
+   		text-transform: uppercase;
+		font-family: "Gothm Rounded Medium", Arial;
+		font-weight: 400;
+		letter-spacing: 2.4px;
+   }
+
+   input[type="text"]::-moz-placeholder {  /* https://css-tricks.com/almanac/selectors/p/placeholder/ */
+   		color: #373737;
+   		text-transform: uppercase;
+		font-family: "Gothm Rounded Medium", Arial;
+		font-weight: 400;
+		letter-spacing: 2.4px;
+   }
+
+   
+/***** END SUBSCRIBE *****/
+
+
+/*****  DOWNLOAD IT *****/
+
+#download {
+	height: 396px;
+	width: 1280px;
+	background-color: #f5f6f7;
+	
+	margin: 0 auto;
+}
+
+#download h2 {
+	margin: 0;
+	padding-top: 86px;
+	padding-left: 1px;
+	color: #373737;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-family: "Gothm Rounded Medium", Arial;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.2em;
+	word-spacing: 0px;
+}
+
+#download p {
+	font-size: 12px; 
+	margin: 0;
+	margin-left: 6px;
+	padding-top: 7px;
+	font-family: "Gothm Rounded Medium", Arial; 
+	text-transform: uppercase;
+	letter-spacing: 0.15em;  
+	word-spacing: 0.7px; 
+	color: #373737; 
+	text-align: center;
+	line-height: 1.9;
+}
+
+#download p span {
+	margin-left: -5px;
+}
+
+#download img[src="images/apstore.png"] {
+	margin-top: 41px;
+	margin-left: 330px;
+	cursor: pointer;
+}
+#download img[src="images/plstore.png"] {
+	
+	margin-left: 22px;
+	cursor: pointer;
+}
+
+/*****  END DOWNLOAD IT *****/
+
+
+/*****  FOOTER *****/
+
+#footer {
+	height: 131px;
+	width: 1280px;
+	background-color: white;
+	
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.links {
+	margin: 0;
+	position: absolute;
+	top: 43px;
+	left: 126px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "Gothm Rounded", Arial;
+	font-weight: bold;
+	letter-spacing: 1.9px;
+	word-spacing: 1.2px;
+} 
+
+.links a {
+	text-decoration: none;
+	color: #373737;
+	
+}
+.links span {
+	color: #16a085;
+}
+
+.paragraph {
+	margin: 0;
+	position: absolute;
+	top: 79px;
+	left: 126px;
+	font-size: 14px;
+	font-family: "Gothm Rounded", Arial;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	color: #373737;
+
+}
+
+#footer img {
+	position: absolute;
+	top: 38px;
+	right: 129px;
+	cursor: pointer;
+}
+/***** END FOOTER *****/
